@@ -15,7 +15,7 @@ A tmux plugin that allows you to view your current pane's content in Neovim. Thi
 This plugin:
 
 1. Captures the current pane's content (including history)
-2. Opens it in Neovim in a new window named "PREVIEW"
+2. Opens it in Neovim in a new window named "HISTORY"
 3. When you exit Neovim, automatically returns to your original window
 4. Cleans up temporary files
 
