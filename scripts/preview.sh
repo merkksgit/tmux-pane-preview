@@ -20,4 +20,4 @@ CURRENT_WINDOW=$(tmux display-message -p '#{window_id}')
 
 # Create a new window with a distinct name for easy reference
 
-tmux new-window -n "PREVIEW" "nvim -R -c 'norm G' -c 'set laststatus=0' -c 'set noshowcmd' -c 'set noruler' -c 'set noshowmode' -c 'set cmdheight=0' \"$TMPFILE\"; tmux select-window -t \"$CURRENT_WINDOW\"; rm -f \"$TMPFILE\""
+tmux new-window -n "HISTORY" "nvim -R -c 'norm G' -c 'set laststatus=0' -c 'set noshowcmd' -c 'set noruler' -c 'set noshowmode' -c 'set cmdheight=0' \"$TMPFILE\"; tmux select-window -t \"$CURRENT_WINDOW\"; rm -f \"$TMPFILE\""
