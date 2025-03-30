@@ -5,7 +5,7 @@
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Default key binding (can be overridden by user)
-default_key="P"
+default_key="å"
 
 # Source the script with the main functionality
 preview_cmd="$CURRENT_DIR/scripts/preview.sh"
