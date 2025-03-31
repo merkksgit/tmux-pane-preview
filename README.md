@@ -1,5 +1,9 @@
 # tmux-pane-preview
 
+[![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)](#)
+[![tmux](https://img.shields.io/badge/tmux-1BB91F?logo=tmux&logoColor=fff)](#)
+[![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff)](#)
+
 A tmux plugin that allows you to view your current pane's content in Neovim. This is useful for examining output, copying text, or searching through your terminal's history with Neovim's powerful navigation capabilities.
 
 ## Features
